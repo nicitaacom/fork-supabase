@@ -34,6 +34,8 @@
     "generate:types": "supabase gen types typescript --local > ./supabase/functions/common/database-types.ts"
   },
   "devDependencies": {
+    "@locator/babel-jsx": "^0.4.3",
+    "@locator/runtime": "^0.4.3",
     "eslint": "^8.45.0",
     "eslint-config-custom": "*",
     "prettier": "^2.8.8",

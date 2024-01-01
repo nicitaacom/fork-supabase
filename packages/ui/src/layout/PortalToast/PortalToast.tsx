@@ -32,7 +32,7 @@ const PortalToast = () => (
           {({ icon, message }) => {
             const isConsentToast = t.id === 'consent-toast'
             return (
-              <>
+              <div onClick={(e) => console.log(35, 'event - ', e)}>
                 {icon}
                 <div className="flex items-center">
                   <div
@@ -62,7 +62,7 @@ const PortalToast = () => (
                     </div>
                   )}
                 </div>
-              </>
+              </div>
             )
           }}
         </ToastBar>
